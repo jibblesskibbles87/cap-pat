@@ -1,0 +1,15 @@
+{
+  "name": "Terraform Dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "hashicorp.terraform",
+        "4ops.terraform"
+      ]
+    }
+  },
+  "postCreateCommand": "terraform -install-autocomplete"
+}   
